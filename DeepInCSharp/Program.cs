@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace DeepInCSharp
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Action<string> print = Console.WriteLine;
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Action<string> print = Console.WriteLine;
 
-            Console.WriteLine(("olleH"));
-            Console.ReadLine();
+    //        Console.WriteLine(("olleH"));
+    //        Console.ReadLine();
 
-        }
-    }
+    //    }
+    //}
     
 }

@@ -15,7 +15,7 @@ namespace DeepInCSharp.第一章_进化史
             return new string(chars);
         }
         [STAThread]//Snippy调用内嵌类、相当于using
-        static void Mains()//“/main”
+        static void Mains()//要用的时候改成Main
         {
             Console.WriteLine(Reverse("olleH"));
 

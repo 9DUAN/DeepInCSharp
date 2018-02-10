@@ -52,6 +52,9 @@
     <Compile Include="第一章_进化史\1.6轻松编写异步代码.cs" />
     <Compile Include="第一章_进化史\1.7剖析.Net.cs" />
     <Compile Include="第一章_进化史\1.8怎样写出酷炫代码.cs" />
+    <Compile Include="第二章_C1搭建的核心基础\1委托.cs" />
+    <Compile Include="第二章_C1搭建的核心基础\23类型系统的特征.cs" />
+    <Compile Include="第二章_C1搭建的核心基础\4构建在坚实基础之上的新特性.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

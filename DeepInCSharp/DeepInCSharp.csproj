@@ -42,9 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="第一章_进步史\1.数据类型.cs" />
+    <Compile Include="第一章_进化史\1.1数据类型.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="第一章_进化史\1.2排序和过滤.cs" />
+    <Compile Include="第一章_进化史\1.3处理未知数据.cs" />
+    <Compile Include="第一章_进化史\1.4LINQ.cs" />
+    <Compile Include="第一章_进化史\1.5COM和动态类型.cs" />
+    <Compile Include="第一章_进化史\1.6轻松编写异步代码.cs" />
+    <Compile Include="第一章_进化史\1.7剖析.Net.cs" />
+    <Compile Include="第一章_进化史\1.8怎样写出酷炫代码.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

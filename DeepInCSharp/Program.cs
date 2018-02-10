@@ -10,7 +10,12 @@ namespace DeepInCSharp
     {
         static void Main(string[] args)
         {
-            
+            Action<string> print = Console.WriteLine;
+
+            Console.WriteLine(("olleH"));
+            Console.ReadLine();
+
         }
     }
+    
 }

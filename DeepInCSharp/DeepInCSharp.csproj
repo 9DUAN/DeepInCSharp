@@ -58,6 +58,7 @@
     <Compile Include="第3章_用泛型实现参数和类型\2日常使用的简单泛型.cs" />
     <Compile Include="第3章_用泛型实现参数和类型\3.3实现泛型.cs" />
     <Compile Include="第3章_用泛型实现参数和类型\3类型约束.cs" />
+    <Compile Include="第4章_可空类型\1没有值怎么办.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

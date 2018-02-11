@@ -30,7 +30,7 @@ namespace DeepInCSharp.第5章_进入快速通道的委托
                 6.必要的时候要创建额外的类型来保存捕获变量
              */
 
-        static void Main()//要用的时候改成Main
+        static void Mains()//要用的时候改成Main
         {
             EnclosingMethod();
 
@@ -43,7 +43,6 @@ namespace DeepInCSharp.第5章_进入快速通道的委托
             TestMixVariables();
 
             Console.ReadKey();
-
         }
 
         /// <summary>

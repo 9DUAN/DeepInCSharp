@@ -74,20 +74,20 @@ namespace DeepInCSharp.第3章_用泛型实现参数和类型
         //4、转换类型约束：
         class Sample1<T> where T : Stream
         {
-            Sample1<Stream> s;//一致性转换
+            //Sample1<Stream> s;//一致性转换
         }
         class Sample2<T> where T : IDisposable
         {
-            Sample2<SqlConnection> s;//引用转换
+            //Sample2<SqlConnection> s;//引用转换
         }
         class Sample3<T> where T : IComparable<T>
         {
-            Sample3<int> s;     //装箱转换
-            Sample3<long> s1;   //装箱转换
+            //Sample3<int> s;     //装箱转换
+            //Sample3<long> s1;   //装箱转换
         }
         class Sample4<T,U> where T : U
         {
-            Sample4<Stream,IDisposable> s;//引用转换
+            //Sample4<Stream,IDisposable> s;//引用转换
             //Sample4<string,IDisposable> s1;
         }
 

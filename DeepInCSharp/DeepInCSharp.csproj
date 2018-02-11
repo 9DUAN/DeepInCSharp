@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,6 +60,8 @@
     <Compile Include="第3章_用泛型实现参数和类型\3.3实现泛型.cs" />
     <Compile Include="第3章_用泛型实现参数和类型\3类型约束.cs" />
     <Compile Include="第4章_可空类型\1没有值怎么办.cs" />
+    <Compile Include="第5章_进入快速通道的委托\4使用匿名方法的内联委托操作.cs" />
+    <Compile Include="第5章_进入快速通道的委托\5匿名方法中的捕获变量.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

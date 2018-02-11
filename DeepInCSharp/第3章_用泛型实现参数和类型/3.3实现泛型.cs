@@ -10,7 +10,7 @@ namespace DeepInCSharp.第3章_用泛型实现参数和类型
     class _实现泛型
     {
 
-        static void Main()//要用的时候改成Main
+        static void Mains()//要用的时候改成Main
         {
             Console.WriteLine(CompareToDefault("X"));
             Console.WriteLine(CompareToDefault(1));

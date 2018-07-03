@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="第10章——拓展方法\Extension.cs" />
+    <Compile Include="第10章——拓展方法\StreamUtil.cs" />
     <Compile Include="第1章_进化史\1.1数据类型.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +65,8 @@
     <Compile Include="第5章_进入快速通道的委托\4使用匿名方法的内联委托操作.cs" />
     <Compile Include="第5章_进入快速通道的委托\5匿名方法中的捕获变量.cs" />
     <Compile Include="第6章_迭代器\1手写迭代器的痛苦.cs" />
+    <Compile Include="第7章_C2特性\特性.cs" />
+    <Compile Include="第9章_Lambda\Lambda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

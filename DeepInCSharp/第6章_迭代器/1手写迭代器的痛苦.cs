@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DeepInCSharp.第6章_迭代器
 {
@@ -12,7 +8,7 @@ namespace DeepInCSharp.第6章_迭代器
         //IEnumerable 
         //IEnumerator
        
-        static void Main()//要用的时候改成Main
+        static void Mains()//要用的时候改成Main
         {
             object[] values = { "a", "b", "c", "d", "e" };
             IterationSample collection = new IterationSample(values, 3);
